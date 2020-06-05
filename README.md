@@ -6,3 +6,7 @@
 - LSTM 모델에 Attention 매커니즘 적용
 - attention value 값으로 dot product 연산 적용
 - 정확도 약 0.91
+
+#### 버전
+- tensorflow 2.0.0
+- keras 2.3.1
