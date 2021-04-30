@@ -1,16 +1,17 @@
-## Attention Model
-### 카카오아레나 쇼핑몰 카테고리 분류
-#### 한국어 자연언어처리
+# Attention Model
 
-- train_chunk 1개로 상품명 데이터만 이용
-- okt 한국어 형태소 분석기 이용
-- LSTM 모델에 Attention 매커니즘 적용
-- attention value 값으로 dot product 연산 적용
-- 정확도 약 0.91
+카카오아레나 쇼핑몰의 상품명 데이터를 이용한 카테고리 분류
 
-#### 버전
-- tensorflow 2.0.0
-- keras 2.3.1
+LSTM 구조에 Attention 연산을 추가
 
-#### 데이터
+## Requirement
+- tensorflow == 2.0.0
+- keras == 2.3.1
+
+### Stack
+
+#### python
+tensorflow, LSTM, konlpy
+
+### 데이터
 https://drive.google.com/file/d/1tI1IM3Pr8oqkBidL5CQ3Wk76MPxZ6X3t/view?usp=sharing
